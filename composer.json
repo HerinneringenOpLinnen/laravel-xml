@@ -1,8 +1,8 @@
 {
-    "name": "martijnvreeken/laravel-xml",
+    "name": "herinneringenoplinnen/laravel-xml",
     "license": "MIT",
     "description": "Convert Eloquent models to XML, as well as normal objects.",
-    "homepage": "https://github.com/martijnvreeken/laravel-xml",
+    "homepage": "https://github.com/herinneringenoplinnen/laravel-xml",
     "keywords": [
         "xml",
         "convert",
@@ -19,8 +19,8 @@
             "role": "Maintainer"
         },
         {
-            "name": "Martijn Vreeken",
-            "email": "martijn@kapibara.media",
+            "name": "HerinneringenOpLinnen",
+            "email": "it@herinneringenoplinnen.nl",
             "role": "Maintainer"
         }
     ],
