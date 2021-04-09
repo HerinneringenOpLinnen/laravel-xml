@@ -77,7 +77,8 @@ class ConverterManager implements Contract
     public function register(string $name, Converter $converter)
     {
         $this->converters[$name] = $converter;
-        Container::getInstance()->singleton($name, $converter);
+        // Container::getInstance()->singleton($name, $converter);
+        app()->instance($name, $converter); // NOTE : change to support Laravel 8 with PHP 7.4
     }
 
     /**
