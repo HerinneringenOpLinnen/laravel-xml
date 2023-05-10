@@ -120,8 +120,8 @@ class ConverterManagerTest extends Orchestra\Testbench\TestCase
         $result = Xml::convert($model);
         $this->assertCount(1, $result->xpath('complexStructure/test1'));
         $xml = $result->asXml();
-        $this->assertContains('&amp;ü', $xml);
-        $this->assertNotContains('&uuml;', $xml);
+        $this->assertStringContainsString('&amp;ü', $xml);
+        $this->assertStringNotContainsString('&uuml;', $xml);
     }
 
     /** @test */
